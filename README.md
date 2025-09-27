@@ -32,6 +32,9 @@ The project benchmarks Fin-GAN against **LSTM** and **ARIMA** models, with evalu
    ```bash
    git clone https://github.com/your-username/fin-gan-forecasting.git
    cd fin-gan-forecasting
+   
+2. Install requirements
+pip install -r requirements.txt
 
 
 ## Acknowledgements
