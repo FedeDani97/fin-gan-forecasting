@@ -19,6 +19,7 @@ The project benchmarks Fin-GAN against **LSTM** and **ARIMA** models, with evalu
 - **ARIMA** underperformed across all metrics, reaffirming the need for nonlinear models.  
 
 ## Repository Structure
+```markdown
 ├── data/ # Preprocessed stock & ETF returns
 ├── notebooks/ # Jupyter notebooks for training and evaluation
 │ ├── Data download.ipynb # Fetches raw stock & ETF data (Yahoo Finance, APIs)
@@ -30,7 +31,7 @@ The project benchmarks Fin-GAN against **LSTM** and **ARIMA** models, with evalu
 ├── results/ # Plots, evaluation metrics, and comparison tables
 ├── requirements.txt # Project dependencies
 └── README.md # Project documentation
-
+```
 
 ## Getting Started
 1. Clone the repository:
